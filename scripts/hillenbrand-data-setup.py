@@ -180,6 +180,10 @@ hillenbrand_data['F1_20_zscore'] = stats.zscore(hillenbrand_data.F1_20)
 hillenbrand_data['F2_20_zscore'] = stats.zscore(hillenbrand_data.F2_20)
 hillenbrand_data['F3_20_zscore'] = stats.zscore(hillenbrand_data.F3_20)
 
+hillenbrand_data['F1_50_zscore'] = stats.zscore(hillenbrand_data.F1_50)
+hillenbrand_data['F2_50_zscore'] = stats.zscore(hillenbrand_data.F2_50)
+hillenbrand_data['F3_50_zscore'] = stats.zscore(hillenbrand_data.F3_50)
+
 hillenbrand_data['F1_80_zscore'] = stats.zscore(hillenbrand_data.F1_80)
 hillenbrand_data['F2_80_zscore'] = stats.zscore(hillenbrand_data.F2_80)
 hillenbrand_data['F3_80_zscore'] = stats.zscore(hillenbrand_data.F3_80)
