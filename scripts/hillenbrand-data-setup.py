@@ -207,6 +207,7 @@ hillenbrand_data['F2_F3_ratio'] = \
 formant_columns = \
   ['F0_zscore', 'F1_zscore', 'F2_zscore', 'F3_zscore', 'F4_zscore',
   'F1_20_zscore', 'F2_20_zscore', 'F3_20_zscore',
+  'F1_50_zscore', 'F2_50_zscore', 'F3_50_zscore',
   'F1_80_zscore', 'F2_80_zscore', 'F3_80_zscore']
 
 formant_ratio_columns = ['F1_F2_ratio', 'F1_F3_ratio', 'F2_F3_ratio']
