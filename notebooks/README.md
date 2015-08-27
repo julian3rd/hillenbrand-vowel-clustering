@@ -7,11 +7,14 @@ The directory contains the notebooks that implement the data formatting, cluster
 ### `hillenbrand-vowel-data-setup.ipynb` (Python)
 This notebook imports, cleans (removes observations with missing values), and sets up the data for clustering in `scikit-learn`.  
 
+### `hillenbrand-supervised-svc-complete.ipynb` (Python)
+This notebook implements the supervised learning of vowels using a Support Vector Machine. Features are the formant values. For a comparison, the normalized (z-score) values are used.  
+
 ### `hillenbrand-unsupervised-complete.ipynb` (Python)
 This notebook implements the unsupervised learning of vowel clusters by using k-means clustering and Gaussian mixture models. Features are principal components of the formants (normalized) and formant ratios.  
 
 ### `vowel-formant-clustering-plots.ipynb` (R)
 This notebook takes the formant clustering data, plots the predictors against each other and highlights the observations according to cluster placement and vowel position.  
 
-### ### `vowel-formant-ratios-clustering-plots.ipynb` (R)  
+### `vowel-formant-ratios-clustering-plots.ipynb` (R)  
 This notebook takes the formant ratio clustering data, plots the predictors against each other and highlights the observations according to cluster placement and vowel position.  
